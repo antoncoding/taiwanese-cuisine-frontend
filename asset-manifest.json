@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/taiwanese-cuisine-frontend/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/taiwanese-cuisine-frontend/static/js/main.7ff20320.chunk.js",
-    "main.js.map": "/taiwanese-cuisine-frontend/static/js/main.7ff20320.chunk.js.map",
+    "main.js": "/taiwanese-cuisine-frontend/static/js/main.3b9299f4.chunk.js",
+    "main.js.map": "/taiwanese-cuisine-frontend/static/js/main.3b9299f4.chunk.js.map",
     "runtime-main.js": "/taiwanese-cuisine-frontend/static/js/runtime-main.66e61c18.js",
     "runtime-main.js.map": "/taiwanese-cuisine-frontend/static/js/runtime-main.66e61c18.js.map",
     "static/css/2.596724bf.chunk.css": "/taiwanese-cuisine-frontend/static/css/2.596724bf.chunk.css",
     "static/js/2.b68da609.chunk.js": "/taiwanese-cuisine-frontend/static/js/2.b68da609.chunk.js",
     "static/js/2.b68da609.chunk.js.map": "/taiwanese-cuisine-frontend/static/js/2.b68da609.chunk.js.map",
     "index.html": "/taiwanese-cuisine-frontend/index.html",
-    "precache-manifest.3dfd7e37d6b927d9dddd363e75f51868.js": "/taiwanese-cuisine-frontend/precache-manifest.3dfd7e37d6b927d9dddd363e75f51868.js",
+    "precache-manifest.8922a0ae7066078fa368971c87a0fe4f.js": "/taiwanese-cuisine-frontend/precache-manifest.8922a0ae7066078fa368971c87a0fe4f.js",
     "service-worker.js": "/taiwanese-cuisine-frontend/service-worker.js",
     "static/css/2.596724bf.chunk.css.map": "/taiwanese-cuisine-frontend/static/css/2.596724bf.chunk.css.map",
     "static/css/main.5ecd60fb.chunk.css.map": "/taiwanese-cuisine-frontend/static/css/main.5ecd60fb.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.596724bf.chunk.css",
     "static/js/2.b68da609.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.7ff20320.chunk.js"
+    "static/js/main.3b9299f4.chunk.js"
   ]
 }

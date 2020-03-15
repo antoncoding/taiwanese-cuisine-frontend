@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8fc5193f3273d085d1d16ba4c3c93cf3",
+    "revision": "d3f1d3747cb8122d483617660278c6b0",
     "url": "/taiwanese-cuisine-frontend/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/taiwanese-cuisine-frontend/static/css/2.596724bf.chunk.css"
   },
   {
-    "revision": "cdc2449b7441869dbd7b",
+    "revision": "29290e503d6c39668471",
     "url": "/taiwanese-cuisine-frontend/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/taiwanese-cuisine-frontend/static/js/2.b68da609.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cdc2449b7441869dbd7b",
-    "url": "/taiwanese-cuisine-frontend/static/js/main.7ff20320.chunk.js"
+    "revision": "29290e503d6c39668471",
+    "url": "/taiwanese-cuisine-frontend/static/js/main.3b9299f4.chunk.js"
   },
   {
     "revision": "d6de77cc24cc2872c713",
