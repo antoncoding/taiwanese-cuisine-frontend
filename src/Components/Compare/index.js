@@ -25,10 +25,8 @@ function Compare() {
   const [optionBIdx, setOptionBIdx] = useState(0)
 
   useMemo(()=>{
-    const initIndexs = Array.from(Array(10).keys())
-    initIndexs.push(0)
+    const initIndexs = Array.from(Array(11).keys())
     const [a, b] = initialAB(initIndexs)
-    console.log(a, b)
     setOptionAIdx(a)
     setOptionBIdx(b)
     let _list = removeFromList(initIndexs, a)
