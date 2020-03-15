@@ -1,4 +1,5 @@
 import React, { useState, useMemo } from 'react';
+import { useHistory } from 'react-router-dom'
 import { Card, CardHeader, CardTitle, CardImg, CardBody, Button } from 'shards-react';
 import { list as foodList, writeDB } from './utils'
 
@@ -19,6 +20,8 @@ function initialAB (indexs) {
 
 function Compare() {
   
+  const history = useHistory()
+
   const [done, setDone] = useState(false)
   const [indexList, updateIndexList] = useState([])
   const [optionAIdx, setOptionAIdx] = useState(0)
@@ -84,6 +87,11 @@ function Compare() {
               <Button disabled={done} theme='success' onClick={onClickOptionB} > Vote </Button>
             </CardBody>
           </Card>
+        </div>
+      </div>
+      <div style={{ textAlign: 'center' }}>
+        <div style={{ padding: '3%', display: 'inline-block'}}>
+          { done ?  <Button display='true' onClick={() => history.push('/ranking')} > 看結果 </Button> : <></> }
         </div>
       </div>
     </>
