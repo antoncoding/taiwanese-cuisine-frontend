@@ -7,10 +7,9 @@ function Ranking() {
         <h3>答案揭曉！</h3>
       </div>
       <div style={{ textAlign: 'center' }}>
-        <div style={{ padding: '3%', display: 'inline-block'}}>
-          <p> 沒東西啦 </p>  
+        <div style={{ padding: '3%', display: 'inline-block' }}>
+          <p> 沒東西啦 </p>
         </div>
-        
       </div>
     </>
   );
