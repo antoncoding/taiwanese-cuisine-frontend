@@ -63,12 +63,12 @@ function Compare() {
   return (
     <>
       <div style={{ paddingTop: '6%', textAlign: 'center' }}>
-        <h3>哪個好吃？</h3>
+        <h3>哪個好吃</h3>
       </div>
       <div style={{ textAlign: 'center' }}>
         <div style={{ padding: '3%', display: 'inline-block' }}>
           <Card style={{ maxWidth: '300px' }}>
-            <CardHeader>選項一</CardHeader>
+            <CardHeader>選項A</CardHeader>
             <CardImg src='https://place-hold.it/300x200' />
             <CardBody>
               <CardTitle>{foodList[optionAIdx].name}</CardTitle>
@@ -81,7 +81,7 @@ function Compare() {
         </div>
         <div style={{ padding: '3%', display: 'inline-block' }}>
           <Card style={{ maxWidth: '300px' }}>
-            <CardHeader>選項二</CardHeader>
+            <CardHeader>選項B</CardHeader>
             <CardImg src='https://place-hold.it/300x200' />
             <CardBody>
               <CardTitle>{foodList[optionBIdx].name}</CardTitle>
