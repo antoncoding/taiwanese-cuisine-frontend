@@ -1,6 +1,13 @@
 version: 2.1
 orbs:
   node: circleci/node@1.1.6
+  gh-pages: sugarshin/gh-pages@0.0.6
+
+executors:
+  buildpack_deps:
+    docker:
+      - image: circleci/buildpack-deps
+
 jobs:
   build-and-test:
     executor:
@@ -11,7 +18,20 @@ jobs:
           steps:
             - run: npm install
             - run: npm test
+
+  deploy_ghpages:
+    executor: buildpack_deps
+    steps:
+      - checkout
+      - run: npm run build
+      - gh-pages/deploy:
+          ssh-fingerprints: 'ff:22:gs:v6:gg:2g:22:7j:73:gf:ja:36:ff:y2:22:89'
+
 workflows:
     build-and-test:
       jobs:
         - build-and-test
+
+    deploy:
+      jobs:
+        - deploy_ghpages
