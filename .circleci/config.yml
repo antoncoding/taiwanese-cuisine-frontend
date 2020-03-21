@@ -3,10 +3,10 @@ orbs:
   node: circleci/node@1.1.6
   gh-pages: sugarshin/gh-pages@0.0.6
 
-executors:
-  buildpack_deps:
-    docker:
-      - image: circleci/buildpack-deps
+# executors:
+#   buildpack_deps:
+#     docker:
+#       - image: circleci/buildpack-deps
 
 jobs:
   build-and-test:
@@ -20,7 +20,8 @@ jobs:
             - run: npm test
 
   deploy_ghpages:
-    executor: buildpack_deps
+    executor: 
+      name: node/default
     steps:
       - checkout
       - run: npm run-script build
