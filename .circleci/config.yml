@@ -25,7 +25,7 @@ jobs:
       - checkout
       - run: npm run build
       - gh-pages/deploy:
-          ssh-fingerprints: 'ff:22:gs:v6:gg:2g:22:7j:73:gf:ja:36:ff:y2:22:89'
+          # ssh-fingerprints: 'ff:22:gs:v6:gg:2g:22:7j:73:gf:ja:36:ff:y2:22:89'
 
 workflows:
     build-and-test:
