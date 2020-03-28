@@ -1,7 +1,8 @@
 import React, { useState, useMemo } from 'react';
 import { useHistory } from 'react-router-dom';
-import { Card, CardHeader, CardTitle, CardImg, CardBody, Button } from 'shards-react';
-import { list as foodList, writeDB } from './utils';
+import { ButtonBase } from '@aragon/ui';
+import { Card, CardHeader, CardImg, CardBody, Button } from 'shards-react';
+import { getList, writeDB } from './utils';
 
 function chooseFromList(targetList) {
   const random = targetList[Math.floor(Math.random() * targetList.length)];
@@ -22,17 +23,20 @@ function Compare() {
   const history = useHistory();
 
   const [done, setDone] = useState(false);
+  const [foodList, setFoodList] = useState([])
   const [indexList, updateIndexList] = useState([]);
   const [optionAIdx, setOptionAIdx] = useState(0);
   const [optionBIdx, setOptionBIdx] = useState(0);
 
-  useMemo(() => {
+  useMemo(async() => {
+    const _foodList = await getList()
     const initIndexs = Array.from(Array(11).keys());
     const [a, b] = initialAB(initIndexs);
     setOptionAIdx(a);
     setOptionBIdx(b);
     let _list = removeFromList(initIndexs, a);
     _list = removeFromList(_list, b);
+    setFoodList(_foodList)
     updateIndexList(_list);
   }, []);
 
@@ -62,34 +66,31 @@ function Compare() {
 
   return (
     <>
-      <div style={{ paddingTop: '6%', textAlign: 'center' }}>
-        <h3>哪個好吃</h3>
+      <div style={{ paddingTop: '6%', textAlign: 'center', fontSize: 36 }}>
+        哪個好吃
       </div>
-      <div style={{ textAlign: 'center' }}>
+      <div style={{ textAlign: 'center', padding:'5%' }}>
         <div style={{ padding: '3%', display: 'inline-block' }}>
           <Card style={{ maxWidth: '300px' }}>
+          <ButtonBase onClick={onClickOptionA}>
             <CardHeader>選項A</CardHeader>
             <CardImg src='https://place-hold.it/300x200' />
             <CardBody>
-              <CardTitle>{foodList[optionAIdx].name}</CardTitle>
-              <Button disabled={done} theme='success' onClick={onClickOptionA}>
-                {' '}
-                Vote{' '}
-              </Button>
+            <div style={{fontSize: 25}} >{foodList.length === 0 ? '' : foodList[optionAIdx].name}</div>
             </CardBody>
+            </ButtonBase>
           </Card>
         </div>
         <div style={{ padding: '3%', display: 'inline-block' }}>
           <Card style={{ maxWidth: '300px' }}>
+          <ButtonBase onClick={onClickOptionB}>
             <CardHeader>選項B</CardHeader>
+            
             <CardImg src='https://place-hold.it/300x200' />
             <CardBody>
-              <CardTitle>{foodList[optionBIdx].name}</CardTitle>
-              <Button disabled={done} theme='success' onClick={onClickOptionB}>
-                {' '}
-                Vote{' '}
-              </Button>
+              <div style={{fontSize: 25}} >{ foodList.length === 0 ? '' : foodList[optionBIdx].name}</div>
             </CardBody>
+            </ButtonBase>
           </Card>
         </div>
       </div>
