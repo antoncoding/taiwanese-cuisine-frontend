@@ -71,7 +71,7 @@ function Compare() {
       </div>
       <div style={{ textAlign: 'center', }}>
         <div style={{ padding: '3%', display: 'inline-block' }}>
-          <Card style={{ maxWidth: '500' }}>
+          <Card style={{ maxWidth: '650' }}>
           <ButtonBase onClick={onClickOptionA}>
             <CardHeader>選項A</CardHeader>
             <CroppedImg url={foodList.length === 0 ? 'https://place-hold.it/300x200' : foodList[optionAIdx].url}/>
