@@ -19,11 +19,12 @@ jobs:
       run: |
         npm install
         npm run-script build
+      env:    
+        REACT_APP_TEST_KEY: ${{ secrets.REACT_APP_TEST_KEY }}
 
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        REACT_APP_TEST_KEY: ${{ secrets.REACT_APP_TEST_KEY }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN_KEY }}
         BRANCH: gh-pages
         FOLDER: build
