@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { useHistory } from 'react-router-dom';
 import { ButtonBase } from '@aragon/ui';
-import { Card, CardHeader, CardImg, CardBody, Button } from 'shards-react';
+import { Card, CardHeader, CardBody, Button } from 'shards-react';
 import { getList, writeDB } from './utils';
 
 function chooseFromList(targetList) {
@@ -66,15 +66,15 @@ function Compare() {
 
   return (
     <>
-      <div style={{ paddingTop: '6%', textAlign: 'center', fontSize: 36 }}>
+      <div style={{ paddingTop: '6%', paddingBottom:  '4%',  textAlign: 'center', fontSize: 36 }}>
         哪個好吃
       </div>
-      <div style={{ textAlign: 'center', padding:'5%' }}>
+      <div style={{ textAlign: 'center', }}>
         <div style={{ padding: '3%', display: 'inline-block' }}>
-          <Card style={{ maxWidth: '300px' }}>
+          <Card style={{ maxWidth: '500' }}>
           <ButtonBase onClick={onClickOptionA}>
             <CardHeader>選項A</CardHeader>
-            <CardImg src='https://place-hold.it/300x200' />
+            <CroppedImg url={foodList.length === 0 ? 'https://place-hold.it/300x200' : foodList[optionAIdx].url}/>
             <CardBody>
             <div style={{fontSize: 25}} >{foodList.length === 0 ? '' : foodList[optionAIdx].name}</div>
             </CardBody>
@@ -82,11 +82,10 @@ function Compare() {
           </Card>
         </div>
         <div style={{ padding: '3%', display: 'inline-block' }}>
-          <Card style={{ maxWidth: '300px' }}>
+          <Card style={{ maxWidth: '500' }}>
           <ButtonBase onClick={onClickOptionB}>
             <CardHeader>選項B</CardHeader>
-            
-            <CardImg src='https://place-hold.it/300x200' />
+            <CroppedImg url={foodList.length === 0 ? 'https://place-hold.it/300x200' : foodList[optionBIdx].url}/>
             <CardBody>
               <div style={{fontSize: 25}} >{ foodList.length === 0 ? '' : foodList[optionBIdx].name}</div>
             </CardBody>
@@ -111,3 +110,13 @@ function Compare() {
 }
 
 export default Compare;
+
+function CroppedImg ({url}){
+  return (
+    <div  style={{position: 'relative', top: 0, left: 0, height: 300}}>
+    <img  
+      style={{height: '100%', minHeight: 300}} 
+      src={url} />
+    </div>
+  )
+}
