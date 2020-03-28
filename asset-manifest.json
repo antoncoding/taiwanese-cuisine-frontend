@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/taiwanese-cuisine-frontend/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/taiwanese-cuisine-frontend/static/js/main.c9ef54b0.chunk.js",
-    "main.js.map": "/taiwanese-cuisine-frontend/static/js/main.c9ef54b0.chunk.js.map",
+    "main.js": "/taiwanese-cuisine-frontend/static/js/main.ac965e7f.chunk.js",
+    "main.js.map": "/taiwanese-cuisine-frontend/static/js/main.ac965e7f.chunk.js.map",
     "runtime-main.js": "/taiwanese-cuisine-frontend/static/js/runtime-main.66e61c18.js",
     "runtime-main.js.map": "/taiwanese-cuisine-frontend/static/js/runtime-main.66e61c18.js.map",
     "static/css/2.596724bf.chunk.css": "/taiwanese-cuisine-frontend/static/css/2.596724bf.chunk.css",
-    "static/js/2.8cd7d55f.chunk.js": "/taiwanese-cuisine-frontend/static/js/2.8cd7d55f.chunk.js",
-    "static/js/2.8cd7d55f.chunk.js.map": "/taiwanese-cuisine-frontend/static/js/2.8cd7d55f.chunk.js.map",
+    "static/js/2.7ce74843.chunk.js": "/taiwanese-cuisine-frontend/static/js/2.7ce74843.chunk.js",
+    "static/js/2.7ce74843.chunk.js.map": "/taiwanese-cuisine-frontend/static/js/2.7ce74843.chunk.js.map",
     "index.html": "/taiwanese-cuisine-frontend/index.html",
-    "precache-manifest.3839510c27e6576282f272cba8e6a0b7.js": "/taiwanese-cuisine-frontend/precache-manifest.3839510c27e6576282f272cba8e6a0b7.js",
+    "precache-manifest.f35a2907cf9247d9140c646271440d1a.js": "/taiwanese-cuisine-frontend/precache-manifest.f35a2907cf9247d9140c646271440d1a.js",
     "service-worker.js": "/taiwanese-cuisine-frontend/service-worker.js",
     "static/css/2.596724bf.chunk.css.map": "/taiwanese-cuisine-frontend/static/css/2.596724bf.chunk.css.map",
     "static/css/main.5ecd60fb.chunk.css.map": "/taiwanese-cuisine-frontend/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.8cd7d55f.chunk.js.LICENSE.txt": "/taiwanese-cuisine-frontend/static/js/2.8cd7d55f.chunk.js.LICENSE.txt"
+    "static/js/2.7ce74843.chunk.js.LICENSE.txt": "/taiwanese-cuisine-frontend/static/js/2.7ce74843.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.66e61c18.js",
     "static/css/2.596724bf.chunk.css",
-    "static/js/2.8cd7d55f.chunk.js",
+    "static/js/2.7ce74843.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.c9ef54b0.chunk.js"
+    "static/js/main.ac965e7f.chunk.js"
   ]
 }
