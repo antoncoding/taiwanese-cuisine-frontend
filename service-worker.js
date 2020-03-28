@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/taiwanese-cuisine-frontend/precache-manifest.f35a2907cf9247d9140c646271440d1a.js"
+  "/taiwanese-cuisine-frontend/precache-manifest.4ccedc92bf0ce3d565118ec6ed2b0de6.js"
 );
 
 self.addEventListener('message', (event) => {
