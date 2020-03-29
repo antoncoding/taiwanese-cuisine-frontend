@@ -1,5 +1,5 @@
-// const PREFIX = 'https://cors-anywhere-anton.herokuapp.com/'
-const PREFIX = ''
+const PREFIX = 'https://cors-anywhere-anton.herokuapp.com/'
+// const PREFIX = ''
 
 export const writeDB = async (winner, loser) => {
     fetch(PREFIX + `http://taiwanese-cuisine-backend-dev.ap-northeast-2.elasticbeanstalk.com/vote?losser=${loser}&winner=${winner}`).then(res => {
