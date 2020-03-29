@@ -76,7 +76,7 @@ function Compare() {
           <ButtonBase onClick={onClickOptionA}>
             <CardHeader>選項A</CardHeader>
             <CroppedImg 
-              width={400}
+              width={350}
               height={300}
               url={foodList.length === 0 ? 'https://place-hold.it/300x200' : foodList[optionAIdx].Image}
             />
@@ -91,7 +91,7 @@ function Compare() {
           <ButtonBase onClick={onClickOptionB}>
             <CardHeader>選項B</CardHeader>
             <CroppedImg 
-              width={400}
+              width={350}
               height={300}
               url={foodList.length === 0 ? 'https://place-hold.it/300x200' : foodList[optionBIdx].Image}
             />
