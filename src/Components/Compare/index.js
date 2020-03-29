@@ -3,6 +3,7 @@ import { useHistory } from 'react-router-dom';
 import { ButtonBase } from '@aragon/ui';
 import { Card, CardHeader, CardBody, Button } from 'shards-react';
 import { getList, writeDB } from './utils';
+import CroppedImg from '../CroppedImg';
 
 function chooseFromList(targetList) {
   const random = targetList[Math.floor(Math.random() * targetList.length)];
@@ -41,7 +42,7 @@ function Compare() {
   }, []);
 
   const onClickOptionA = () => {
-    writeDB(optionAIdx, optionBIdx, optionAIdx);
+    writeDB(optionAIdx, optionBIdx);
     if (indexList.length === 0) {
       setDone(true);
       return;
@@ -53,7 +54,7 @@ function Compare() {
   };
 
   const onClickOptionB = () => {
-    writeDB(optionAIdx, optionBIdx, optionBIdx);
+    writeDB(optionBIdx, optionAIdx);
     if (indexList.length === 0) {
       setDone(true);
       return;
@@ -74,9 +75,13 @@ function Compare() {
           <Card style={{ maxWidth: '650' }}>
           <ButtonBase onClick={onClickOptionA}>
             <CardHeader>選項A</CardHeader>
-            <CroppedImg url={foodList.length === 0 ? 'https://place-hold.it/300x200' : foodList[optionAIdx].url}/>
+            <CroppedImg 
+              width={400}
+              height={300}
+              url={foodList.length === 0 ? 'https://place-hold.it/300x200' : foodList[optionAIdx].Image}
+            />
             <CardBody>
-            <div style={{fontSize: 25}} >{foodList.length === 0 ? '' : foodList[optionAIdx].name}</div>
+            <div style={{fontSize: 25}} >{foodList.length === 0 ? '' : foodList[optionAIdx].Name}</div>
             </CardBody>
             </ButtonBase>
           </Card>
@@ -85,9 +90,13 @@ function Compare() {
           <Card style={{ maxWidth: '500' }}>
           <ButtonBase onClick={onClickOptionB}>
             <CardHeader>選項B</CardHeader>
-            <CroppedImg url={foodList.length === 0 ? 'https://place-hold.it/300x200' : foodList[optionBIdx].url}/>
+            <CroppedImg 
+              width={400}
+              height={300}
+              url={foodList.length === 0 ? 'https://place-hold.it/300x200' : foodList[optionBIdx].Image}
+            />
             <CardBody>
-              <div style={{fontSize: 25}} >{ foodList.length === 0 ? '' : foodList[optionBIdx].name}</div>
+              <div style={{fontSize: 25}} >{ foodList.length === 0 ? '' : foodList[optionBIdx].Name}</div>
             </CardBody>
             </ButtonBase>
           </Card>
@@ -111,12 +120,3 @@ function Compare() {
 
 export default Compare;
 
-function CroppedImg ({url}){
-  return (
-    <div  style={{position: 'relative', top: 0, left: 0, height: 300}}>
-    <img  
-      style={{height: '100%', minHeight: 300}} 
-      src={url} />
-    </div>
-  )
-}
