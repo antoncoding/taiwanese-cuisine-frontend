@@ -13,7 +13,7 @@ import "shards-ui/dist/css/shards.min.css"
 function App() {
   return (
     <Main>
-    <Router basename={process.env.PUBLIC_URL} >
+    <Router>
         <Switch>
           <Route path='/ranking/' children={<Ranking/>} />
           <Route path='/' children={<Compare/>} />
