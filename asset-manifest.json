@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/taiwanese-cuisine-frontend/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/taiwanese-cuisine-frontend/static/js/main.ce1257b1.chunk.js",
-    "main.js.map": "/taiwanese-cuisine-frontend/static/js/main.ce1257b1.chunk.js.map",
-    "runtime-main.js": "/taiwanese-cuisine-frontend/static/js/runtime-main.66e61c18.js",
-    "runtime-main.js.map": "/taiwanese-cuisine-frontend/static/js/runtime-main.66e61c18.js.map",
-    "static/css/2.596724bf.chunk.css": "/taiwanese-cuisine-frontend/static/css/2.596724bf.chunk.css",
-    "static/js/2.a2415d94.chunk.js": "/taiwanese-cuisine-frontend/static/js/2.a2415d94.chunk.js",
-    "static/js/2.a2415d94.chunk.js.map": "/taiwanese-cuisine-frontend/static/js/2.a2415d94.chunk.js.map",
-    "index.html": "/taiwanese-cuisine-frontend/index.html",
-    "precache-manifest.d06b8de5f00867092af48beda6af189e.js": "/taiwanese-cuisine-frontend/precache-manifest.d06b8de5f00867092af48beda6af189e.js",
-    "service-worker.js": "/taiwanese-cuisine-frontend/service-worker.js",
-    "static/css/2.596724bf.chunk.css.map": "/taiwanese-cuisine-frontend/static/css/2.596724bf.chunk.css.map",
-    "static/css/main.5ecd60fb.chunk.css.map": "/taiwanese-cuisine-frontend/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.a2415d94.chunk.js.LICENSE.txt": "/taiwanese-cuisine-frontend/static/js/2.a2415d94.chunk.js.LICENSE.txt"
+    "main.css": "/opynmonitor.xyz/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/opynmonitor.xyz/static/js/main.93b8d558.chunk.js",
+    "main.js.map": "/opynmonitor.xyz/static/js/main.93b8d558.chunk.js.map",
+    "runtime-main.js": "/opynmonitor.xyz/static/js/runtime-main.45cd7773.js",
+    "runtime-main.js.map": "/opynmonitor.xyz/static/js/runtime-main.45cd7773.js.map",
+    "static/css/2.596724bf.chunk.css": "/opynmonitor.xyz/static/css/2.596724bf.chunk.css",
+    "static/js/2.8ab45b6a.chunk.js": "/opynmonitor.xyz/static/js/2.8ab45b6a.chunk.js",
+    "static/js/2.8ab45b6a.chunk.js.map": "/opynmonitor.xyz/static/js/2.8ab45b6a.chunk.js.map",
+    "index.html": "/opynmonitor.xyz/index.html",
+    "precache-manifest.cfdadab78348e196bbc2229b9a8450e1.js": "/opynmonitor.xyz/precache-manifest.cfdadab78348e196bbc2229b9a8450e1.js",
+    "service-worker.js": "/opynmonitor.xyz/service-worker.js",
+    "static/css/2.596724bf.chunk.css.map": "/opynmonitor.xyz/static/css/2.596724bf.chunk.css.map",
+    "static/css/main.5ecd60fb.chunk.css.map": "/opynmonitor.xyz/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.8ab45b6a.chunk.js.LICENSE.txt": "/opynmonitor.xyz/static/js/2.8ab45b6a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.66e61c18.js",
+    "static/js/runtime-main.45cd7773.js",
     "static/css/2.596724bf.chunk.css",
-    "static/js/2.a2415d94.chunk.js",
+    "static/js/2.8ab45b6a.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.ce1257b1.chunk.js"
+    "static/js/main.93b8d558.chunk.js"
   ]
 }
