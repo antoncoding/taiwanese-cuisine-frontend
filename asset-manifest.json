@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/opynmonitor.xyz/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/opynmonitor.xyz/static/js/main.93b8d558.chunk.js",
-    "main.js.map": "/opynmonitor.xyz/static/js/main.93b8d558.chunk.js.map",
+    "main.js": "/opynmonitor.xyz/static/js/main.548ca86c.chunk.js",
+    "main.js.map": "/opynmonitor.xyz/static/js/main.548ca86c.chunk.js.map",
     "runtime-main.js": "/opynmonitor.xyz/static/js/runtime-main.45cd7773.js",
     "runtime-main.js.map": "/opynmonitor.xyz/static/js/runtime-main.45cd7773.js.map",
     "static/css/2.596724bf.chunk.css": "/opynmonitor.xyz/static/css/2.596724bf.chunk.css",
     "static/js/2.8ab45b6a.chunk.js": "/opynmonitor.xyz/static/js/2.8ab45b6a.chunk.js",
     "static/js/2.8ab45b6a.chunk.js.map": "/opynmonitor.xyz/static/js/2.8ab45b6a.chunk.js.map",
     "index.html": "/opynmonitor.xyz/index.html",
-    "precache-manifest.cfdadab78348e196bbc2229b9a8450e1.js": "/opynmonitor.xyz/precache-manifest.cfdadab78348e196bbc2229b9a8450e1.js",
+    "precache-manifest.a89f3563d23277f4058639734c0af2df.js": "/opynmonitor.xyz/precache-manifest.a89f3563d23277f4058639734c0af2df.js",
     "service-worker.js": "/opynmonitor.xyz/service-worker.js",
     "static/css/2.596724bf.chunk.css.map": "/opynmonitor.xyz/static/css/2.596724bf.chunk.css.map",
     "static/css/main.5ecd60fb.chunk.css.map": "/opynmonitor.xyz/static/css/main.5ecd60fb.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.596724bf.chunk.css",
     "static/js/2.8ab45b6a.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.93b8d558.chunk.js"
+    "static/js/main.548ca86c.chunk.js"
   ]
 }
