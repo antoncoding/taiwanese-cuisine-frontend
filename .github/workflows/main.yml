@@ -20,7 +20,7 @@ jobs:
         npm install
         npm run-script build
       env:    
-        REACT_APP_TEST_KEY: ${{ secrets.REACT_APP_TEST_KEY }}
+        REACT_APP_CORS_PREFIX: ${{ secrets.REACT_APP_CORS_PREFIX }}
 
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
