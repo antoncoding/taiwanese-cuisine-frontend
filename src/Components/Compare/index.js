@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { useHistory } from 'react-router-dom';
-import { ButtonBase } from '@aragon/ui';
+import { ButtonBase, LoadingRing } from '@aragon/ui';
 import { Card, CardHeader, CardBody, Button } from 'shards-react';
 import { getList, writeDB } from './utils';
 import CroppedImg from '../CroppedImg';
@@ -70,7 +70,10 @@ function Compare() {
       <div style={{ paddingTop: '6%', paddingBottom:  '4%',  textAlign: 'center', fontSize: 36 }}>
         哪個好吃
       </div>
-      <div style={{ textAlign: 'center', }}>
+      { foodList.length === 0 ?  
+        <div style={{ paddingTop: '6%', paddingBottom:  '4%',  textAlign: 'center', fontSize: 20 }}>
+          Loading...
+        </div> : <div style={{ textAlign: 'center', }}>
         <div style={{ padding: '3%', display: 'inline-block' }}>
           <Card style={{ maxWidth: '650' }}>
           <ButtonBase onClick={onClickOptionA}>
@@ -102,6 +105,8 @@ function Compare() {
           </Card>
         </div>
       </div>
+    }
+      
       <div style={{ textAlign: 'center' }}>
         <div style={{ padding: '3%', display: 'inline-block' }}>
           {done ? (
