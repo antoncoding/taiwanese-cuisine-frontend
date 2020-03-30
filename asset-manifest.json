@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/www.opynmonitor.xyz/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/www.opynmonitor.xyz/static/js/main.265087f6.chunk.js",
-    "main.js.map": "/www.opynmonitor.xyz/static/js/main.265087f6.chunk.js.map",
-    "runtime-main.js": "/www.opynmonitor.xyz/static/js/runtime-main.58021e56.js",
-    "runtime-main.js.map": "/www.opynmonitor.xyz/static/js/runtime-main.58021e56.js.map",
-    "static/css/2.596724bf.chunk.css": "/www.opynmonitor.xyz/static/css/2.596724bf.chunk.css",
-    "static/js/2.19443057.chunk.js": "/www.opynmonitor.xyz/static/js/2.19443057.chunk.js",
-    "static/js/2.19443057.chunk.js.map": "/www.opynmonitor.xyz/static/js/2.19443057.chunk.js.map",
-    "index.html": "/www.opynmonitor.xyz/index.html",
-    "precache-manifest.5586ce44fabc2f8701d0271a378e7191.js": "/www.opynmonitor.xyz/precache-manifest.5586ce44fabc2f8701d0271a378e7191.js",
-    "service-worker.js": "/www.opynmonitor.xyz/service-worker.js",
-    "static/css/2.596724bf.chunk.css.map": "/www.opynmonitor.xyz/static/css/2.596724bf.chunk.css.map",
-    "static/css/main.5ecd60fb.chunk.css.map": "/www.opynmonitor.xyz/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.19443057.chunk.js.LICENSE.txt": "/www.opynmonitor.xyz/static/js/2.19443057.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/static/js/main.231d71be.chunk.js",
+    "main.js.map": "/static/js/main.231d71be.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a0a66673.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a0a66673.js.map",
+    "static/css/2.596724bf.chunk.css": "/static/css/2.596724bf.chunk.css",
+    "static/js/2.d67ee881.chunk.js": "/static/js/2.d67ee881.chunk.js",
+    "static/js/2.d67ee881.chunk.js.map": "/static/js/2.d67ee881.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.efd5f1fbe3bb7fdcd5303a8b13fb2097.js": "/precache-manifest.efd5f1fbe3bb7fdcd5303a8b13fb2097.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.596724bf.chunk.css.map": "/static/css/2.596724bf.chunk.css.map",
+    "static/css/main.5ecd60fb.chunk.css.map": "/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.d67ee881.chunk.js.LICENSE.txt": "/static/js/2.d67ee881.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.58021e56.js",
+    "static/js/runtime-main.a0a66673.js",
     "static/css/2.596724bf.chunk.css",
-    "static/js/2.19443057.chunk.js",
+    "static/js/2.d67ee881.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.265087f6.chunk.js"
+    "static/js/main.231d71be.chunk.js"
   ]
 }
