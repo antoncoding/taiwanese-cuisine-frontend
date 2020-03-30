@@ -1,8 +1,8 @@
 import React, { useState, useMemo } from 'react';
 import { useHistory } from 'react-router-dom';
-import { ButtonBase, LoadingRing } from '@aragon/ui';
+import { ButtonBase } from '@aragon/ui';
 import { Card, CardHeader, CardBody, Button } from 'shards-react';
-import { getList, writeDB } from './utils';
+import { getList, vote } from './utils';
 import CroppedImg from '../CroppedImg';
 
 function chooseFromList(targetList) {
@@ -42,7 +42,7 @@ function Compare() {
   }, []);
 
   const onClickOptionA = () => {
-    writeDB(optionAIdx, optionBIdx);
+    vote(foodList[optionAIdx].ID, foodList[optionBIdx].ID);
     if (indexList.length === 0) {
       setDone(true);
       return;
@@ -54,7 +54,7 @@ function Compare() {
   };
 
   const onClickOptionB = () => {
-    writeDB(optionBIdx, optionAIdx);
+    vote(foodList[optionBIdx].ID, foodList[optionAIdx].ID);
     if (indexList.length === 0) {
       setDone(true);
       return;
